@@ -6,33 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 <body>
     <div id="container">
+        <div id="home_resume_wrapper">
         <header>
           <div id="logo">
           <h2>DAVID X</h2>
           </div>
           <div id="links">
             <ul>
-              <li><a href="">Mee</a></li>
               <li><a href="">Home</a></li>
               <li><a href="">About</a></li>
               <li><a href="">Contact</a></li>
             </ul>
           </div>
         </header>
-        <div id="home_resume_wrapper">
-          <div id ="home">
-            <h2>Hello There</h2>
-            <p>I am Odedunmoye Olaoluwa David</p>
+        <div id ="home">
+            <h1>Hello There</h1>     
+            <h1>I am Odedunmoye Olaoluwa David<span id ="more">I am a frontend Developer who is really interested in building a lot more than websites, i want websites not to only serve as a form of digital presence,but as a form of eep interaction between both parties </span></h1>
+            <button onclick = MoreLess() id="read">READ MORE <img src="./Vector.svg" alt=""></button>
+        </div>
+        <div id ="resume">
+          <div id = "education">
+            <img src="./Vector (1).svg" alt="">
+            <h2>EDUCATION</h2>
+            <h3>PRIMARY</h3>
+            <p>Total Child School Onikolobo <span id =" dur">2007-2012</span><br> Abeokuta  </p>
+            <h3>SECONDARY</h3>
+            <p>Total Child School Onikolobo <span id =" dur">2007-2012</span> <br> Abeokuta  </p>
+            <h3>TERTIARY</h3>
+            <p>Total Child School Onikolobo <span id =" dur">2007-2012</span> <br> Abeokuta  </p>
           </div>
-          <div id ="resume"></div>
+          <div id = "skill-set">
+            <img src="./Vector (2).svg" alt="">
+            <h2>SKILL-SET</h2>
+            <h3>FRONTEND STACK</h3>
+            <h3>HTML</h3>
+            <span id="bar"><span id="html"></span></span>
+
+            <h3>CSS</h3>
+            <span id="bar"><span id="css"></span></span>
+
+            <h3>Javascript</h3>
+            <span id="bar"><span id="jscript"></span></span>
+
+            <h3>REACT</h3>
+            <span id="bar"><span id="react"></span></span>
+
+          </div>
+        </div>
         </div>
         <div id="contact">
-  
+          <div id = "contact-form">
+          <h2>CONTACT ME </h2>
+          <form action="" method="POST">
+            <input type="text" placeholder = "Name" id=""> <br>
+            <input type="text" placeholder="Email Address" id=""> <br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea> <br>
+            <button>SEND</button>
+          </form>
+          </div>
+          <div id =" contact-image">
+            <img src="Osheyy" alt="">
+
+          </div>
         </div>
         <div id="footer">
+          <h5> c Copywright Odedunmoye Olaoluwa 2021</h5>
         </div>
       </div>
 </body>
